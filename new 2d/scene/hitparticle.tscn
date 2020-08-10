@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="CanvasItemMaterial" id=1]
+particles_animation = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[node name="CPUParticles2D" type="CPUParticles2D"]
+material = SubResource( 1 )
+scale = Vector2( 11.0754, 11.4285 )
+amount = 33
+lifetime = 0.15
+local_coords = false
+emission_shape = 1
+emission_sphere_radius = 1.0
+scale_amount = 5.0
+color = Color( 0.980392, 0.792157, 0.0509804, 1 )
+anim_offset = 1.0
